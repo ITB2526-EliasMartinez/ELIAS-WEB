@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es"><!--Atributo lang definido para español-->
+<!-- HEAD -->
+<head>
+    <!--METADATOS-->
+    <meta charset="utf-8"> <!--define la codificacion de caracteres que usa la pagina web,(Unicode Transformation Format - 8 bits)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--ajusta el ancho de la pagina al ancho del dispositivo dependiendo de sus pixeles maximos-->
+    <meta name="description" content="Pagina web actividad de MDS - Elias y Ivan"><!--ayuda a los motores de busqueda y usuarios a entender de que trata la pagina,aparece debajo del titulo -->
+    <meta property="og:title" content="TA05_HTML-CSS-JS_25_26"><!--titulo aparece en el enlace compartido-->
+    <meta property="og:description" content="Esta es una pagina web de prueba siguiendo una estrctura."><!--descripcion breve cuando se comparte la url-->
+    <meta property="og:url" content="http://eliasyivan.com"><!--url completa de la pagina-->
+    <!---->
+    <link rel="stylesheet" type="text/css" href="../css/reset.css"> <!--tecnica usada para eliminar los estilos predeterminados que aplican los navegadores (chrome, firefox, edge)--> 
+    <link rel="stylesheet" type="text/css" href="../css/redes.css"> <!--estilo de la pagina que voy a dar por css, redireccionado a mi css-->
+    <link rel="icon" href="../images/logo_itb.png" type="image/x-icon"><!--es lo que aparece en el icono de la pestaña en pc-->
+    <title>Redes - EI</title> <!--Define el titulo de la pagina web que aparece en la pestaña del navegador, cuando se comparte el enlace en redes sociales--> 
+</head>
+<!-- BODY -->
+ <body>
+    <!--NAVBAR-->
+    <nav class="navbar"><!--nomenclatura nav: menu navegacion que contiene normalmente un menu de enlaces-->
+        <!-- Logo del Navbar -->
+        <a href="../index.html"><!--nomenclatura a: crea enlaces cliqueables que redireccionan a una url destino, obligatorio usarla con href para darle la ruta de la redireccion que queramos.-->
+            <img src="../images/logo_itb.png" class="logo_navbar"><!--nomenclatura img: inserta una imagen, obligatorio usarla con src para darle la ruta de la imagen que queramos, alt texto alternativo si no sale la imagen-->
+        </a>
+        <!-- Titulo del Navbar-->
+        <h1 class="titulo_navbar">PROJECT TITLE ELIAS</h1><!--nomenclatura h1: pone el titulo que nosotros queramos poner-->
+        <!-- Lista Enlaces del Navbar -->
+        <ul class="lista_enlaces_navbar"><!--nomenclatura ul: crea una lista que contiene elementos li, por defecto muestra · al lado de los li, ol muestra numeros-->
+            <!--Enlaces de la lista del navbar-->
+            <li><a href="../index.html">INICIO</a></li><!--nomenclatura li: crea un elemento en la lista de ul, obligatoriamente va dentro de ul, a+href ya esta explicado-->
+            <li><a href="./redes.html">REDES</a></li>
+            <li><a href="./sistemas.html">SISTEMAS</a></li>
+            <li><a href="./proyectos.html">PROYECTOS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <!--MAIN-->
+    <main class="main">
+        <!--Figure 1 del main-->
+        <figure class="figure_main">
+            <img src="../images/ivan_iquierda_redes.png" alt="">
+        </figure>
+        <!--Article-->
+        <article class="article">
+            <section class="section_article">
+                <h1>Qué pasará con los dispositivos que dependan de esta tecnología 2G Y 3G</h1>
+                <p>Un ejemplo claro, son los móviles más antiguos. Aunque cada vez hay menos, todavía sigue habiendo dispositivos que no cuentan con tecnología 4G o 5G. En la práctica, afectará solo a modelos muy antiguos que, tal vez, utilices como segundo móvil. Es complicado que, una vez termine el apagón del 2G o 3G, sigas utilizando un móvil que use solo esa tecnología.Sí puede ser mucho más común en el caso de los dispositivos del Internet de las Cosas. Hablamos de alarmas de seguridad que puedan estar conectadas y utilicen 2G, sistemas de teleasistencia, emergencias o servicios conectados a vehículos, por ejemplo. Podrían no ser compatibles con las redes actuales, en caso de que sean aparatos más antiguos. No obstante, como hemos explicado, el apagado del 2G va a ser posterior al 3G, por lo que hay un mayor margen para actualizar equipos, en caso de ser necesario. En definitiva, el plan de apagar el 2G y el 3G avanza en Europa, según el informe realizado desde Omdia. Aún hay dispositivos que necesitan de esta tecnología, aunque la cifra es cada vez menor.Pero, ¿qué pasa con los usuarios que necesiten utilizar el 2G y el 3G? Siempre hay usuarios vulnerables, que son aquellos que, por el motivo que sea, siguen utilizando dispositivos que solo son compatibles con esta tecnología. Puede ser un móvil antiguo, por ejemplo, pero también muchos dispositivos IoT.Sarah McBride, analista de Omdia, indicó que la motivación principal de este apagón de redes antiguas es económico y técnico. De cara a liberar recursos, los operadores están eliminando las redes 2G y 3G y centrándose en el 4G y 5G, que es lo que tiene actualmente mayor demanda.</p>
+            </section>
+            <footer class="footer_article">
+                <p>© 2026 E&I | Ultimas actualizaciones </p>
+            </footer>
+        </article>
+        <!--Figure 2 del main-->
+        <figure class="figure_main">
+            <img src="../images/elias_derecha_redes.png" alt="">
+        </figure>
+    </main>
+    <!--FOOTER-->
+    <footer class="footer">
+        <p>© 2026 E&I | Desarrollado por Elias & Ivan | Todos los derechos reservados</p>    
+    </footer>
+ </body>

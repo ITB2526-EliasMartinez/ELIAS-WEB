@@ -1,0 +1,176 @@
+/*CUERPO/BODY*/
+body{
+  font-family: Arial, Helvetica, sans-serif; /**Fuente de toda la pagina**/
+  background-color: #c4dafa99; /* Fondo negro con 50% de opacidad (transparente) */
+  width: 100%;/**ancho de la web**/
+  /*height: 100vh;/**altura completa de la pantalla**/
+  /*margin: 0 auto;/**arriba abajo 0, izquierda y derecha auto**/
+  /*margin-top: 85px;/*margen */
+}
+  /*NavBar*/
+  .navbar{
+    background-color: #c4dafac2;
+    box-sizing: border-box; /**es igual al width total y se resta del total el border y el padding**/
+    display: flex;
+    width: 100%;
+    height: 85px;
+    padding: 0 40px;
+    align-items: center;
+    justify-content:space-between;
+    /*max-height: 85px; /* Todo dentro máximo 85px */
+  }
+    /*logo nabvar*/
+    .logo_navbar{
+      width: 45px;
+      height: 45px;
+      /*background-color: azure;*/
+    }
+    /*titulo navbar*/
+    .titulo_navbar{
+      /*background-color: #114cab;*/
+      width: 45%;
+      font-size: 1.5rem; /**Tamaño de fuente (1.5 veces el tamaño base)**/
+      font-weight: 600; /**texto en negrita**/
+    }
+    /*lista de enlaces*/
+    .lista_enlaces_navbar{
+      /*background-color: aqua;*/
+      width: 50%;
+      display: flex;
+      gap: 15px;
+      justify-content: flex-end; /* ← Alinea contenido a la derecha */
+
+    }  
+      /*enlaces de la lista*/
+      .lista_enlaces_navbar a{  
+        color:#000000; /**Color del texto: blanco**/
+        text-decoration: none;
+        font-size: 1.1rem; /**Tamaño de fuente (1.5 veces el tamaño base)**/
+        font-weight: 600; /**texto en negrita**/
+        transition: color 0.5s; /**Transición suave del color en 0.3 segundos**/
+      }
+      /**pasar por encima de los enlaces**/
+        .lista_enlaces_navbar a:hover {
+          color: #0000ff; /**Cambia el color a dorado (#FFD700) al hacer hover**/
+      }
+      /*Main*/
+      .main{
+      background-color: #c4dafac2;
+      display: grid;/*flex box filas o columnas, grid filas y columnas a la vez*/
+      gap: 20px;/*espacio entre filas y la otra columna*/
+      margin: 30px 40px;/**espaciado para fuera del contenedor**/
+      border-radius: 15px;
+      padding: 20px 20px;
+      }
+        /*Article*/
+        .article{
+          background-color: #adcdfec2;
+          border-radius: 15px;
+        }
+        /*Header article*/
+        .header_article{
+          padding:20px 20px 0 20px;
+        }
+        .header_article img{
+          border-radius: 15px;
+          width: 100%;
+          height: 100px;
+          object-fit: cover; /* Recorta la imagen para que rellene el espacio sin estirarse */
+
+        }
+        /*secion de sections*/
+        .section_sections{
+          /*background-color: #114cab;*/
+          display: flex;
+          margin: 20px;
+          border-radius: 15px;
+          gap: 20px;
+          hyphens: auto;/*para poner guienes si no cabe una palabra*/
+          text-align: justify; 
+        }
+        /*Columnas*/
+        .columna_iz{
+          /*background-color: #adcdfec2;*/
+          /*padding: 20px;*/
+          border-radius: 15px;
+          flex: 1;
+          /*margin: 20px 0px 20px 20px;*/
+          
+        }
+          /*figure*/
+          .columna_iz figure{
+            border-radius: 15px;
+          }
+          .columna_iz img{
+            border-radius: 15px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover; /* Recorta la imagen para que rellene el espacio sin estirarse */
+          }
+            /*texto y titulo*/
+            .columna_iz h1{
+              font-size: 45px;
+              padding-bottom: 5px;
+            }
+            .columna_iz p{
+              padding-top: 5px;
+          font-size: 23px;
+          hyphens: auto;/*para poner guienes si no cabe una palabra*/
+          line-height: 1.2;
+        letter-spacing: 1.5px;
+            }
+        .columna_de{
+          /*background-color: #adcdfec2;*/
+          /*padding: 20px;*/
+          border-radius: 15px;
+          flex: 1;
+          /*margin: 20px 20px 20px 0;*/
+        }
+          /*figure*/
+          .columna_de figure{
+            border-radius: 15px;
+          }
+          .columna_de img{
+            border-radius: 15px;
+            width: 100%;
+            height: 100px;
+            object-fit: cover; /* Recorta la imagen para que rellene el espacio sin estirarse */
+          }
+            /*texto y titulo*/
+            .columna_de h1{
+              font-size: 45px;
+              padding-bottom: 5px;
+            }
+            .columna_de p{
+              padding-top: 5px;
+          font-size: 23px;
+          hyphens: auto;/*para poner guienes si no cabe una palabra*/
+          line-height: 1.2;
+        letter-spacing: 1.5px;
+            }
+    /*footer article*/
+    .footer_article{
+        border-radius: 0 0 15px 15px;
+        width: 96%;
+        height: 60px;
+        text-align: center;
+        border-top:3px solid #4d83bca3;
+        margin: 30px 2% 0 2%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+  /*FOOTER*/
+  .footer{
+    color: #000000cb;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5999ffa8;
+    box-sizing: border-box; /**es igual al width total y se resta del total el border y el padding**/
+    width: 100%;
+    height: 80px;
+  }
